@@ -1,0 +1,463 @@
+@font-face {
+    font-family: 'ITCAvantGardeGothicMediumCondensed';
+    src: url('../fonts/ITCAvantGardeGothicMediumCondensed.eot');
+    src: url('../fonts/ITCAvantGardeGothicMediumCondensed.eot') format('embedded-opentype'),
+         url('../fonts/ITCAvantGardeGothicMediumCondensed.woff2') format('woff2'),
+         url('../fonts/ITCAvantGardeGothicMediumCondensed.woff') format('woff'),
+         url('../fonts/ITCAvantGardeGothicMediumCondensed.ttf') format('truetype'),
+         url('../fonts/ITCAvantGardeGothicMediumCondensed.svg#ITCAvantGardeGothicMediumCondensed') format('svg');
+}
+@font-face {
+    font-family: 'ITCAvantGardeGothicStdBookCondensed';
+    src: url('../fonts/ITCAvantGardeGothicStdBookCondensed.eot');
+    src: url('../fonts/ITCAvantGardeGothicStdBookCondensed.eot') format('embedded-opentype'),
+         url('../fonts/ITCAvantGardeGothicStdBookCondensed.woff2') format('woff2'),
+         url('../fonts/ITCAvantGardeGothicStdBookCondensed.woff') format('woff'),
+         url('../fonts/ITCAvantGardeGothicStdBookCondensed.ttf') format('truetype'),
+         url('../fonts/ITCAvantGardeGothicStdBookCondensed.svg#ITCAvantGardeGothicStdBookCondensed') format('svg');
+}
+@font-face {
+    font-family: 'ITCAvantGardeGothicStdExtraLightCondensed';
+    src: url('../fonts/ITCAvantGardeGothicStdExtraLightCondensed.eot');
+    src: url('../fonts/ITCAvantGardeGothicStdExtraLightCondensed.eot') format('embedded-opentype'),
+         url('../fonts/ITCAvantGardeGothicStdExtraLightCondensed.woff2') format('woff2'),
+         url('../fonts/ITCAvantGardeGothicStdExtraLightCondensed.woff') format('woff'),
+         url('../fonts/ITCAvantGardeGothicStdExtraLightCondensed.ttf') format('truetype'),
+         url('../fonts/ITCAvantGardeGothicStdExtraLightCondensed.svg#ITCAvantGardeGothicStdExtraLightCondensed') format('svg');
+}
+@font-face {
+    font-family: 'ITCAvantGardeGothicStdBoldCondensed';
+    src: url('../fonts/ITCAvantGardeGothicStdBoldCondensed.eot');
+    src: url('../fonts/ITCAvantGardeGothicStdBoldCondensed.eot') format('embedded-opentype'),
+         url('../fonts/ITCAvantGardeGothicStdBoldCondensed.woff2') format('woff2'),
+         url('../fonts/ITCAvantGardeGothicStdBoldCondensed.woff') format('woff'),
+         url('../fonts/ITCAvantGardeGothicStdBoldCondensed.ttf') format('truetype'),
+         url('../fonts/ITCAvantGardeGothicStdBoldCondensed.svg#ITCAvantGardeGothicStdBoldCondensed') format('svg');
+}
+@font-face {
+    font-family: 'ITCAvantGardeGothicDemiCondensed';
+    src: url('../fonts/ITCAvantGardeGothicDemiCondensed.eot');
+    src: url('../fonts/ITCAvantGardeGothicDemiCondensed.eot') format('embedded-opentype'),
+         url('../fonts/ITCAvantGardeGothicDemiCondensed.woff2') format('woff2'),
+         url('../fonts/ITCAvantGardeGothicDemiCondensed.woff') format('woff'),
+         url('../fonts/ITCAvantGardeGothicDemiCondensed.ttf') format('truetype'),
+         url('../fonts/ITCAvantGardeGothicDemiCondensed.svg#ITCAvantGardeGothicDemiCondensed') format('svg');
+}
+@font-face {
+    font-family: 'BeckmanDemons';
+    src: url('../fonts/BeckmanDemons.eot');
+    src: url('../fonts/BeckmanDemons.eot') format('embedded-opentype'),
+         url('../fonts/BeckmanDemons.woff2') format('woff2'),
+         url('../fonts/BeckmanDemons.woff') format('woff'),
+         url('../fonts/BeckmanDemons.ttf') format('truetype'),
+         url('../fonts/BeckmanDemons.svg#BeckmanDemons') format('svg');
+}
+@font-face {
+    font-family: 'BolinGerii';
+    src: url('../fonts/BolinGerii.eot');
+    src: url('../fonts/BolinGerii.eot') format('embedded-opentype'),
+         url('../fonts/BolinGerii.woff2') format('woff2'),
+         url('../fonts/BolinGerii.woff') format('woff'),
+         url('../fonts/BolinGerii.ttf') format('truetype'),
+         url('../fonts/BolinGerii.svg#BolinGerii') format('svg');
+}
+@font-face {
+    font-family: 'AntiqueSemiBold';
+    src: url('../fonts/AntiqueSemiBold.eot');
+    src: url('../fonts/AntiqueSemiBold.eot') format('embedded-opentype'),
+         url('../fonts/AntiqueSemiBold.woff2') format('woff2'),
+         url('../fonts/AntiqueSemiBold.woff') format('woff'),
+         url('../fonts/AntiqueSemiBold.ttf') format('truetype'),
+         url('../fonts/AntiqueSemiBold.svg#AntiqueSemiBold') format('svg');
+}
+@font-face {
+    font-family: 'AntiqueSemiBoldItalic';
+    src: url('../fonts/AntiqueSemiBoldItalic.eot');
+    src: url('../fonts/AntiqueSemiBoldItalic.eot') format('embedded-opentype'),
+         url('../fonts/AntiqueSemiBoldItalic.woff2') format('woff2'),
+         url('../fonts/AntiqueSemiBoldItalic.woff') format('woff'),
+         url('../fonts/AntiqueSemiBoldItalic.ttf') format('truetype'),
+         url('../fonts/AntiqueSemiBoldItalic.svg#AntiqueSemiBoldItalic') format('svg');
+}
+@font-face {
+    font-family: 'AntiqueBook';
+    src: url('../fonts/AntiqueBook.eot');
+    src: url('../fonts/AntiqueBook.eot') format('embedded-opentype'),
+         url('../fonts/AntiqueBook.woff2') format('woff2'),
+         url('../fonts/AntiqueBook.woff') format('woff'),
+         url('../fonts/AntiqueBook.ttf') format('truetype'),
+         url('../fonts/AntiqueBook.svg#AntiqueBook') format('svg');
+}
+@font-face {
+    font-family: 'AntiqueLightItalic';
+    src: url('../fonts/AntiqueLightItalic.eot');
+    src: url('../fonts/AntiqueLightItalic.eot') format('embedded-opentype'),
+         url('../fonts/AntiqueLightItalic.woff2') format('woff2'),
+         url('../fonts/AntiqueLightItalic.woff') format('woff'),
+         url('../fonts/AntiqueLightItalic.ttf') format('truetype'),
+         url('../fonts/AntiqueLightItalic.svg#AntiqueLightItalic') format('svg');
+}
+@font-face {
+    font-family: 'AntiqueLight';
+    src: url('../fonts/AntiqueLight.eot');
+    src: url('../fonts/AntiqueLight.eot') format('embedded-opentype'),
+         url('../fonts/AntiqueLight.woff2') format('woff2'),
+         url('../fonts/AntiqueLight.woff') format('woff'),
+         url('../fonts/AntiqueLight.ttf') format('truetype'),
+         url('../fonts/AntiqueLight.svg#AntiqueLight') format('svg');
+}
+@font-face {
+    font-family: 'AntiqueRegularItalic';
+    src: url('../fonts/AntiqueRegularItalic.eot');
+    src: url('../fonts/AntiqueRegularItalic.eot') format('embedded-opentype'),
+         url('../fonts/AntiqueRegularItalic.woff2') format('woff2'),
+         url('../fonts/AntiqueRegularItalic.woff') format('woff'),
+         url('../fonts/AntiqueRegularItalic.ttf') format('truetype'),
+         url('../fonts/AntiqueRegularItalic.svg#AntiqueRegularItalic') format('svg');
+}
+@font-face {
+    font-family: 'AntiqueBookItalic';
+    src: url('../fonts/AntiqueBookItalic.eot');
+    src: url('../fonts/AntiqueBookItalic.eot') format('embedded-opentype'),
+         url('../fonts/AntiqueBookItalic.woff2') format('woff2'),
+         url('../fonts/AntiqueBookItalic.woff') format('woff'),
+         url('../fonts/AntiqueBookItalic.ttf') format('truetype'),
+         url('../fonts/AntiqueBookItalic.svg#AntiqueBookItalic') format('svg');
+}
+@font-face {
+    font-family: 'AntiqueRegular';
+    src: url('../fonts/AntiqueRegular.eot');
+    src: url('../fonts/AntiqueRegular.eot') format('embedded-opentype'),
+         url('../fonts/AntiqueRegular.woff2') format('woff2'),
+         url('../fonts/AntiqueRegular.woff') format('woff'),
+         url('../fonts/AntiqueRegular.ttf') format('truetype'),
+         url('../fonts/AntiqueRegular.svg#AntiqueRegular') format('svg');
+}
+
+
+
+html,body {overflow-x: hidden;}
+
+body{font-weight: 300; font-size: 16px; line-height: 28px; color: #000000; margin: 0; padding: 0; box-sizing: border-box;}
+
+img {max-width: 100%; outline:0;}
+
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0; text-shadow:none; line-height:110%;}
+
+p{padding:0; margin:0px;}
+
+a{text-decoration:none; outline:0; transition: ease-in-out 0.5s; color: #047eb9;}
+
+a:hover{text-decoration:none; transition: ease-in-out 0.5s;}
+
+::-webkit-input-placeholder{opacity: 1;}
+
+:-moz-placeholder{opacity: 1;}
+
+::-moz-placeholder{opacity: 1;}
+
+:-ms-input-placeholder{opacity: 1;}
+
+::-ms-input-placeholder{opacity: 1;}
+
+:placeholder-shown{opacity: 1;}
+
+a, a:focus, button, button:focus{outline:0; outline-width:0; cursor: pointer;}
+
+.clear{clear: both; padding: 0; margin: 0; line-height: 0;}
+
+.container{max-width: 1540px; margin: 0 auto; padding: 0 20px;}
+
+.desktop-view{display: block;}
+
+.mobile-view{display: none;}
+
+/***header sec start***/
+
+.main-header{background: #202945; padding:20px 0; position: fixed; width: 100%; z-index: 2;}
+
+.main-header .container{max-width: 90%; padding: 0; position: relative;}
+
+.header-menu-sec{display: flex; align-items: center; justify-content: center;}
+
+.main-header ul{padding: 0; margin: 0;}
+
+.main-header ul li{list-style: none; float: left; padding: 0 37px;}
+
+.main-header ul li a{color: #fff; text-transform: capitalize; font-family: 'ITCAvantGardeGothicStdBookCondensed'; font-size: 17px;}
+
+.header-social-icon ul li{padding: 0 20px;}
+
+.header-social-icon ul li:last-child{padding-right: 0;}
+
+.header-social-icon{position: absolute; right: 20px; top:50%; transform: translateY(-50%);}
+
+.main-header.is-sticky{position: fixed; animation: slideDown 0.35s ease-out; z-index: 9; width: 100%;}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/***header sec end***/
+
+/**banner sec start**/
+
+.banner-sec{margin-top: 111px;}
+
+.banner-img-sec{position: relative; height: 100vh;}
+
+.banner-content{position: absolute; right: 180px; top: 50%; max-width: 580px; text-align: center; transform: translateY(-50%);}
+
+.banner-content h2{padding: 0 0 20px 0; margin: 0; color: #404555; font-family: 'ITCAvantGardeGothicStdBookCondensed'; font-weight: 400; font-size:30px; line-height: 46px;}
+
+.banner-content a{background: #867550; padding: 12px 26px; color: #fff; font-size: 18px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; letter-spacing: 0.4px; max-width: 240px; display: block; margin: 0 auto;}
+
+.banner-content a:hover{background: #202945;}
+
+/**banner sec end**/
+
+/**pasticceria sec start**/
+
+.pasticceria-sec{height: 1080px; background-size: cover !important; background-attachment: fixed !important;}
+
+.pasticceria-sec .container{height: 100%;}
+
+.pasticceria-content{max-width: 450px; border-radius: 25px; background: rgba(32, 41, 69, 0.9); padding: 30px; text-align: center; color: #fff;}
+
+.pasticceria-content h3{padding: 0 0 15px 0; margin: 0; font-family: 'ITCAvantGardeGothicStdBookCondensed'; text-transform: uppercase; font-size: 24px; line-height: 28px; font-weight: 400;}
+
+.pasticceria-content p{font-family: 'ITCAvantGardeGothicStdBookCondensed'; font-size: 18px; line-height: 28px;}
+
+.pasticceria-content-wrap{height: 100%; display: flex; align-items: center; justify-content: flex-end;}
+
+/**pasticceria sec end**/
+
+/**featured product sec start**/
+
+.featured-sec{padding: 70px 0 100px 0;}
+
+.featured-sec h2{padding: 0 0 65px 0; margin: 0; text-align: center; color: #202945; font-size: 24px; line-height: 28.8px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; text-transform: uppercase; font-weight: 400;}
+
+.featured-slider-sec{max-width: 1400px; margin: 0 auto; text-align: center;}
+
+.featured-slider-sec h4{padding: 25px 0 8px 0; color: #202945; font-family: 'ITCAvantGardeGothicStdExtraLightCondensed'; text-transform: capitalize; letter-spacing: 1px; font-size: 24px; line-height: 26px;}
+
+.featured-slider-sec p{color: #202945; font-size:20px; line-height: 28px; font-family: 'ITCAvantGardeGothicStdBookCondensed';}
+
+.featured-carousel .owl-prev span, .featured-carousel .owl-next span{font-size: 0;}
+
+.featured-carousel .owl-prev{background: url(../images/arrow-prev.png)left top no-repeat !important; width: 19px; height: 39px; left:-60px; top:90px; position: absolute;}
+
+.featured-carousel .owl-next{background: url(../images/arrow-next.png)right top no-repeat !important; width: 19px; height: 39px; right:-60px; top:90px; position: absolute;}
+
+.featured-carousel .owl-dots{display: none !important;}
+
+/**featured product sec end**/
+
+/**location sec start**/
+
+.location-content-wrap .pasticceria-content{background: rgba(255,255,255,0.9); color: #202945;}
+
+.location-content-wrap .pasticceria-content p{padding: 0 0 15px 0;}
+
+.location-content-wrap .pasticceria-content p:last-child{padding: 0;}
+
+.location-content-wrap{justify-content: flex-start;}
+
+/**location sec end**/
+
+/**product sec start**/
+
+.product-sec{padding: 200px 0;}
+
+.product-sec .container{max-width: 1430px;}
+
+.product-carousel{text-align: center;}
+
+.product-carousel h4{padding: 25px 0 8px 0; color: #202945; font-family: 'ITCAvantGardeGothicStdBookCondensed'; text-transform: capitalize; font-weight: 400; font-size: 24px; line-height: 26px;}
+
+.product-carousel h4 a{color: #202945;}
+
+.product-carousel p{color: #202945; font-size:20px; line-height: 28px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; max-width: 75%; margin: 0 auto;}
+
+.product-carousel .item img{width: 344px; height: 470px; margin: 0 auto;}
+
+/**product sec end**/
+
+/**contact sec start**/
+
+.contact-sec{position: relative; display: flex;}
+
+.contact-wrap-l{background-size: cover !important; width: 60%;}
+
+.contact-wrap-r{width: 40%; background: #202945; padding: 150px 0;}
+
+.contact-blank-space{}
+
+.contact-content-sec{position: relative; text-align: center;}
+
+.contact-content-sec p{color: #FFFFFF; font-size: 19px; line-height: 26px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; padding: 0 0 35px 0;}
+
+.contact-content-sec p span{display: block;}
+
+.contact-content-sec h4{color: #fff; font-size: 19px; text-transform: uppercase; font-family: 'ITCAvantGardeGothicStdBookCondensed'; line-height: 24px; letter-spacing: 0.4px;font-weight: 400;}
+
+.contact-content-sec h4.location-h4{position: relative; padding: 10px 0 50px 50px; display: inline-block;}
+
+.contact-content-sec h4.location-h4:before{position: absolute; content: ''; background: url(../images/location-icon.png) left top no-repeat; left: 0; top: 0; width: 26px; height: 40px;}
+
+.contact-social-icon{padding: 18px 0 35px 0; margin: 0; text-align: center;}
+
+.contact-social-icon li{list-style: none; display: inline-block; padding: 0 4px;}
+
+.contact-content-sec h3{color: #FFFFFF; font-size: 47px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; line-height: 50px; font-weight: 400;}
+
+.contact-content-sec input{width: 100%; max-width:395px; height:40px; text-align: center; color: #8D7D5A; font-size: 18px; padding: 0 10px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; box-sizing: border-box;}
+
+.contact-content-sec h6{color: #FFFFFF; font-size: 19px; line-height: 26px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; padding: 0 0 5px 0; font-weight: 400;}
+
+.contact-menu-ul{padding: 0; margin: 0; text-align: center;}
+
+.contact-menu-ul li{list-style: none; display: inline-block; padding: 0 10px; position: relative;}
+
+.contact-menu-ul li a{color: #FFFFFF; font-size: 19px; line-height: 26px; font-family: 'ITCAvantGardeGothicStdBookCondensed';}
+
+.contact-menu-ul li:before{position: absolute; content: ''; background: #fff; height: 15px; width: 1px; left: -2px; top:50%; transform: translateY(-50%);}
+
+.contact-menu-ul li:first-child:before{display: none;}
+
+/**contact sec end**/
+
+/**mobile menu sec start**/
+
+.my-navbar{width: 100%; display: flex; align-items: center;}
+
+.right-nav{width: 50%;}
+
+.left-nav{width: 50%; text-align: right;}
+
+.toggle-side img{height: 25px;}
+
+.body-container{width: 100%; height: 100%;}
+
+.body-container .side-menu{width: 360px; top: 0; background-color:#202945; height: 100vh; position: fixed; right: -360px; transition: all 0.5s; padding: 80px 20px 20px 20px; display: flex; flex-direction: column; justify-content: space-between; z-index: 30; box-sizing: border-box;}
+
+.body-container .side-menu .header{display: flex; flex-direction: column; align-items: center;}
+
+.body-container .side-menu .header img{height: 18px;}
+
+.body-container .side-menu.show{right: 0;}
+
+.close-side{position: absolute; right: 20px; top: 20px;}
+
+/**mobile menu sec end**/
+
+
+/*thums-slider sec start*/
+
+.thums-slider-sec{background: url('../images/thumbs-slider-bg.png') left top repeat-y; height: 1080px; position: relative;}
+
+.thums-slider-sec:before{position: absolute; content: ''; background: #dfd9d1; height: 590px; top: 50%; transform: translateY(-50%); left: 0; width: 100%;}
+
+.thums-slider-sec-content{position: relative; z-index: 1;}
+
+.thums-slider-sec-content-leftpart{width: 45%; text-align: center;}
+
+.thums-slider-sec-content-rightpart{width:55%;}
+
+.thums-slider-sec-content-leftpart h3{color: #202945; text-align: center; font-size: 24px; line-height: 28px; text-transform: uppercase; font-family: 'ITCAvantGardeGothicStdBookCondensed'; padding: 0 0 20px 0; font-weight: 400;}
+
+.thums-slider-sec-content-leftpart p{color: #202945; font-size: 20px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; line-height:28px; padding: 0 0 15px 0; margin: 0 auto; width:80%;}
+
+.thums-slider-sec-content-leftpart a{color: #202945; text-align: center; font-size: 24px; line-height: 28px; text-transform: uppercase; font-family: 'ITCAvantGardeGothicStdBookCondensed';}
+
+.thums-slider-sec .container{max-width: 1720px; margin: 0 auto;}
+
+.thums-slider-sec-content{display: flex; align-items: center; justify-content: space-between; height: 1080px;}
+
+#big .item{height: 420px}
+
+#big .item img{height: 100%; object-fit: cover;}
+
+#thumbs .item{height:216px;padding: 0px; margin:0; color: #FFF; text-align: center; cursor: pointer;}
+
+.owl-theme .owl-nav [class*='owl-']{-webkit-transition: all .3s ease; transition: all .3s ease;}
+
+.owl-theme .owl-nav [class*='owl-'].disabled:hover{background-color: #D6D6D6;}
+
+#big.owl-theme{position: relative; margin: 0 0 18px 0;}
+
+#thumbs .item img{height:180px; object-fit: cover;}
+
+/*thums-slider sec end*/
+
+/****************************************product page start*******************************************/
+
+.product-filter-sec{margin-top: 111px;}
+
+.filter{text-align: center; margin:0 auto; background: #fff7ed; padding: 20px 0;}
+
+.filter a{text-align: center; text-decoration: none; color: #202945; font-size: 22px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; line-height: 26px; background: none; padding: 0 45px;}
+
+.filter a.current {font-weight: 600;}
+
+.boxGroup{text-align:center; padding:200px 0 0 0;}
+
+.boxGroup .box{width: 100%; height:100%; display: block;}
+
+.box-head-sec h3{padding:0 0 20px 0; color: #202945; font-family: 'ITCAvantGardeGothicStdBookCondensed'; font-weight: 400; text-transform: capitalize; font-size: 24px; line-height: 26px;}
+
+.box-head-sec p{color: #202945; font-size:20px; line-height: 28px; font-family: 'ITCAvantGardeGothicStdBookCondensed'; margin: 0 auto 30px; width: 50%;}
+
+.box-content-area{display: flex; align-items: center; justify-content: center; flex-wrap: wrap;}
+
+.box-content-box{width:calc(25% - 16px); margin-right: 16px; margin-bottom: 80px;}
+
+.box-content-box:nth-child(4n+4){margin-right: 0;}
+
+.box-content-box h4{padding: 15px 0 8px 0; color: #202945; font-family: 'ITCAvantGardeGothicStdExtraLightCondensed'; text-transform: capitalize; letter-spacing: 1px; font-size: 24px; line-height: 26px;}
+
+.box-content-box p{color: #202945; font-size:20px; line-height: 28px; font-family: 'ITCAvantGardeGothicStdBookCondensed';}
+
+.filter-header{margin: 0 auto; width:50%;}
+
+.filter.filterfttop{position:fixed; left:0; width:100%; z-index:9; animation: slideDown 0.35s ease-out;}
+
+
+/****************************************product page end*******************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
